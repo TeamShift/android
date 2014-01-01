@@ -433,7 +433,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   
   <!-- SHIFT repo's -->
-  <project path="device/lge/hammerhead" name="TeamShift/android_device_lge_hammerhead" remote="github" revision="shift_4.4" />
+  <project path="device/lge/hammerhead" name="TeamShift/android_device_lge_hammerhead" remote="github" revision="shift-4.4" />
   <project path="kernel/lge/hammerhead" name="TeamShift/android_kernel_lge_hammerhead" remote="github" revision="android-4.4" />
   
 
