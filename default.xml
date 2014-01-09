@@ -12,10 +12,7 @@
   <remote  name="github"
            fetch="https://github.com/" />      
            
-
-  <project path="build" name="platform/build" groups="pdk" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
+  <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
@@ -430,6 +427,9 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   
   <!-- SHIFT repo's -->
+  <project path="build" name="TeamShift/android_build" remote="github" revision="shift-4.4" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="device/lge/hammerhead" name="TeamShift/android_device_lge_hammerhead" remote="github" revision="shift-4.4" />
   <project path="kernel/lge/hammerhead" name="TeamShift/android_kernel_lge_hammerhead" remote="github" revision="android-4.4" />
   <project path="frameworks/base" name="TeamShift/platform_frameworks_base" remote="github" revision="shift-4.4" />
