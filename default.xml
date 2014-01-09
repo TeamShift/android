@@ -430,8 +430,6 @@
   <project path="build" name="TeamShift/android_build" remote="github" revision="shift-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="device/lge/hammerhead" name="TeamShift/android_device_lge_hammerhead" remote="github" revision="shift-4.4" />
-  <project path="kernel/lge/hammerhead" name="TeamShift/android_kernel_lge_hammerhead" remote="github" revision="android-4.4" />
   <project path="frameworks/base" name="TeamShift/platform_frameworks_base" remote="github" revision="shift-4.4" />
   <project path="packages/apps/Settings" name="TeamShift/platform_packages_apps_Settings" remote="github" revision="shift-4.4" />
   <project path="vendor/shift" name="TeamShift/vendor_shift" remote="github" revision="shift-4.4" />
